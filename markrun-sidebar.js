@@ -36,7 +36,7 @@
             var link = document.createElement('a')
             link.innerHTML = item.text
             link.setAttribute('href', '#' + item.id)
-            link.setAttribute('class', 'markrun-sidebar-link')
+            link.setAttribute('class', 'markdown-sidebar-link')
             li.appendChild(link)
             sidebar.appendChild(li)
             if (item.child) {
