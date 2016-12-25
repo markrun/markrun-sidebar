@@ -1,6 +1,6 @@
 {
   "name": "markrun-sidebar",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"UTF-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">     <title>markrun-sidebar</title> </head> <body>     <h1>markrun-sidebar</h1>     <div id=\"demo\"></div>     <h1 id=\"a\">a</h1>     <h2 id=\"b\">b</h2>     <h3 id=\"c\">c</h3>     <h3 id=\"c1\">c1</h3>     <h3 id=\"c2\">c2</h3>     <h4 id=\"d\">d</h4>     <h5 id=\"e\">e</h5>     <h4 id=\"f\">f</h4>     <h2 id=\"g\">g</h2>     <h3 id=\"g1\">g1</h3>     <h3 id=\"g2\">g2</h3>     <script src=\"markrun-sidebar.js\" ></script>     <script> var markrunSideData = markrunSidebar({     element: document.getElementById('demo') }) console.log(markrunSideData)     </script> </body> </html>",
   "main": "markrun-sidebar.js",
   "scripts": {
