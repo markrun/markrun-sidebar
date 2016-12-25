@@ -46,7 +46,7 @@
                     var littleLink = document.createElement('a')
                     littleLink.innerHTML = littleTitle.text
                     littleLink.setAttribute('href', '#' + littleTitle.id)
-                    littleLink.setAttribute('class', 'markrun-sidebar-link')
+                    littleLink.setAttribute('class', 'markdown-sidebar-link')
                     littleLi.appendChild(littleLink)
                     littleUl.appendChild(littleLi)
                 })
